@@ -126,3 +126,10 @@ print(s5)
 l6=[1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5,55,5,5,5,5]
 l6=list(set(l6))
 print(l6)
+
+
+# dictionaries- stores the values in the form of keys and values uses curly brackets for declaration 
+
+d={}
+print(type(d))
+# in this if you add values in the linear format it will store as set if you assign in key value pairs it would print the dictionaries
