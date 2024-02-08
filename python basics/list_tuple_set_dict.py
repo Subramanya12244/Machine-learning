@@ -133,3 +133,39 @@ print(l6)
 d={}
 print(type(d))
 # in this if you add values in the linear format it will store as set if you assign in key value pairs it would print the dictionaries
+
+d1={"name":"subramanya","email":"subramanya@gmail.com","age":21}
+for i in d1:
+    print(i,d1[i])
+    
+# for searching values
+print(d1["name"])
+
+d4={"name":"subramanya","email":"subramanya@gmail","name":"abhimanyu"}
+print(d4["name"])
+
+# in ht eabove case the name key would over ride the value subramanya and store the abhimanyu
+
+d5={"company":"pwskills","courses":["webdevelopment","data science","java dsa"]}
+# retrive the value java dsa from the above dictonaries
+print(d5["courses"][2])
+
+d6={"number":[2,34,4,34,34],"assignment":[1,2,3,4,5,6],"launch date":[28,12,14],"class_time":{"web dev":8,"dataScience":5,"java dsa":12}}
+
+print(d6)
+
+# even we can add more keys
+
+d6["mentor"]={"sudhanshu","krishh"}
+print(d6)
+
+# keys() functiones are used to display the keys of the dictionaries
+print(d6.keys())
+
+# .values() functiones are used to print the values in the dictionaries
+
+print(d6.values())
+
+# .pop() remove specified key and return the corresponding value if the key is not present the it show key error
+d6.pop("class_time")
+
