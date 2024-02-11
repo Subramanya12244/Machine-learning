@@ -1,5 +1,99 @@
 # if else ifelse 
+
+# write a program for getting greatest of 4 nors by taking the input from user
+
+# num1=int(input("enter the number1"))
+# num2=int(input("enter the number2"))
+# num3=int(input("enter the numbe3"))
+# num4=int(input("enter the number4"))
+
+# if(num1>num2 and num1>num3 and num1>num4):
+#     print(f"num1={num1} is greatest of 4 nors")
+# elif(num2>num1 and num2>num3 and num2>num4):
+#     print(f"num2={num2} is greatest of 4 nors")
+# elif(num3>num1 and num3>num2 and num3>num4):
+#     print(f"num3={num3} is greatest of 4 nors")
+# else:
+#     print(f"num4={num4} is greatest of 4 nors")
+    
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# write the program to find out wheather a student is pass or fail if it requires total 40% and atleast 33% in each subject to pass Assume 3 subjects
+
+# maths=int(input("enter the marks of maths:"))
+# physics=int(input("enter the marks of physics:"))
+# chemistry=int(input("enter the marks of chemistry"))
+
+# sum=maths+physics+chemistry
+# average=sum/3
+
+# if(average>40 and maths>33 and chemistry>33 and physics>33):
+#     print(f"congratulation the student have passed and secured {averge} percent")
+# else:
+#     print(f"the student have failed and secured {averge} percent")
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# write a program to find wheater a given user name has less than 10 char or not
+# username=input("please enter your username")
+# ch=0
+# for i in range(len(username)):
+#     ch=ch+1
+# if(ch>10):
+#     print("the user name charecter exeeds 10 charecter")
+# else:
+#     print("the user name charecter doesnot exeeds 10 charecter")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# write a program which finds out wheather a given name is present in the list
+
+nameList=["vasu","darshan","subramnaya","abhimanyu",
+"sudha","aishwarys"]
+name=input("enter name to check for list")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Q-1Create a program that checks if a given year is a "century leap year" (divisible by 100 and 400) or a "non-century leap year" (divisible by 4 but not by 100).
+
 
 # def leap_year(year):
 #     if year%4==0 and year%100!=0:
