@@ -127,9 +127,42 @@ def fibnocci(n):
 for i in fibnocci(10):
     print(i)
 
+# 2nd method 
+def fibnocci1():
+    a,b=0,1
+    while True:
+        yield a
+        a,b=b,a+b
+fib=fibnocci1()
+for i in range(10):
+    print(next(fib))
+# string method is not iterator so we use next in the above example using for loop
+# only itorator can be iterable like we cannot iterate the int 
+s1="abhimanyu"
+s2=iter(s1)
 
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# print(next(s2))
+# the above is equal to below
+for i in range(len(s1)):
+    print(next(s2))
 
-
+# another example
+def count(n):
+    count1=1
+    while count1<=n:
+        yield count1
+        count1=count1+1
+c=count(10)
+for i in c:
+    print(i)
 
 
 
