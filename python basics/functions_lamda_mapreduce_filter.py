@@ -164,10 +164,40 @@ c=count(10)
 for i in c:
     print(i)
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# topic:3.lambda function
+
+n=3
+p=2
+def test(n,p):
+    return n**p
+print(test(n,p))
+
+# using lamda function   
+a=lambda n,p:n**p
+print(a(n,p))
+
+# addition using lamda function
+sum=lambda a,b:a+b
+print(sum(10,20))
+
+# convet celcius to farenite
+f=lambda c:9/5*c+32
+print(f(45))
+
+# finding max 
+max=lambda a,b:a if a>b else b
+print(max(10,20)) 
+
+# finding length of the string
+s="subramanya"
+length=lambda s:len(s)
+print(length(s))
 
 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
+# topic-4:Map,Reduce,Filter functions
 
 
 
