@@ -199,10 +199,57 @@ print(length(s))
 
 # topic-4:Map,Reduce,Filter functions
 
+l=[2,3,4,5,6]
+# sqaring each and every element of list
+
+def testCase(l):
+    l1=[]
+    for i in l:
+        l1.append(i*i)
+    return l1
+print(testCase(l))
+
+# using map functions
+# map function takes a function and iterates through each and every element and do the operation from the function ex
+
+print("using the map functions:")
+def sqare(x):
+    return x**2
+
+print(list(map(sqare,l)))
+
+print(list(map(lambda x:x**2,l)))
+
+l1=[1,2,3,4,5]
+l2=[6,7,8,9,10]
+
+print(list(map(lambda x,y:x+y,l1,l2)))
+
+s1="subramanya"
+print(list(map(lambda x:x.upper(),s1)))
 
 
+# reduce: only two potential arguments can be passed we cannot pass more than two arguments
+from functools import reduce
+l1=[1,2,3,4,5,6,7,8,9,10]
+print(reduce(lambda x,y:x+y,l1))
 
 
+# print(reduce(lambda x,y,z:x+y+z,l1)) 
+# the above will show error
+
+# write a reduce funtion which will return max of list 
+l2=[5,4,5,6,7,8,9]
+print(reduce(lambda x,y:x if x>y else y,l2))
 
 
+# filter:
+# even
+print(list(filter(lambda x:x%2==0,l2)))
+# odd
+print(list(filter(lambda x:x%2==1,l2)))
+
+l3=[-5,-7,-8,-9,1,2,3,4]
+# printing negative nor
+print(list(filter(lambda x:x<0,l3)))
 
