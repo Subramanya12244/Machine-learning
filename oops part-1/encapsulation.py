@@ -57,6 +57,10 @@ subramanya=BankAccount(1000)
 print(subramanya.getBalance())
 subramanya.deposit(5000)
 print(subramanya.getBalance())
+print(subramanya.widraw(7000))
+print(subramanya.widraw(2000))
+print(subramanya.getBalance())
+
 
    
    
