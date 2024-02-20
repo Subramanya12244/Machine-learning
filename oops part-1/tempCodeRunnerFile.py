@@ -1,0 +1,1 @@
+print(f"the amount have been added {amount} ")
