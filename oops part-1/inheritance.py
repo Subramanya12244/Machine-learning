@@ -51,4 +51,3 @@ class class6(class4, class5):
 class6_obj=class6()
 class6_obj.printing3()
 class6_obj.printing4()
-he
