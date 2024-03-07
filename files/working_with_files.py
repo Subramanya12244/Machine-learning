@@ -1,3 +1,5 @@
+# topic -1 : working with files 
+
 
 # 'r'       open for reading (default)
 # 'w'       open for writing, truncating the file first
@@ -41,11 +43,11 @@ data=open("test.txt","r")
 for i in data:
     print(i)
 # to find the size of the file
-data=open("test.txt","w")
-import os
-size=os.path.getsize("test1.txt")
-print(size)
 
+import os
+size=os.path.getsize("test.txt")
+print(size)
+data=open("test1.txt","w")
 # if you want to delete the file
 # os.remove("test.txt")
 
