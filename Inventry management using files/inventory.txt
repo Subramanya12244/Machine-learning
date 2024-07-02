@@ -1,0 +1,4 @@
+1,5 star,10,100
+2,milkybar,20,90
+3,dairy milk,5,200
+4,munch,10,150
